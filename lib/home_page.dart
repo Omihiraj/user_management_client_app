@@ -1,6 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:user_management_client_app/widgets/employee_card.dart';
 import 'package:user_management_client_app/screens/main/add_new_user_screen.dart';
 import 'package:user_management_client_app/widgets/main_navigation_drawer.dart';
+
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -30,6 +38,7 @@ class HomePage extends StatelessWidget {
           color: Colors.white,
         ),
       ),
+
     );
   }
 }
